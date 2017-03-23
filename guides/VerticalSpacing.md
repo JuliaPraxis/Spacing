@@ -6,19 +6,20 @@
 
 Prefer to align on the `::`.
 If the field name lengths vary greatly, align subgroups on their `::`.
-
+```julia
 struct ExampleStruct    
     first_field  :: Int32    
     second_field :: String    
 end    
-
+```
+```julia
 struct ExampleStruct    
     id    :: String    
     score :: Float64    
     this_is_the_third_field  :: Int32    
     this_is_the_fourth_field :: String    
 end    
-
+```
 ### Splitting Lines
 
 Prefer to split a long line after `=`, `(`, `,`, `||` or `&&`.
