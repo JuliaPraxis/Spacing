@@ -28,6 +28,7 @@ struct ExampleStruct
     second_field ::String    
 end
 ```
+
   - :x:&nbsp;&nbsp;&nbsp;&nbsp;  `first_name:: String`
 
 ```julia
@@ -36,6 +37,7 @@ struct ExampleStruct
     second_field :: String    
 end    
 ```
+
  #### note
  
  - Function calls have no space between the function name and the opening parenthesis.
