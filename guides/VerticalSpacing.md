@@ -3,7 +3,7 @@
      
 - Indentation uses four spaces and does not use tabs.
 
-- Lines should not end in extra whitespace.
+- Lines should not end with whitespace.
 
 ### Splitting Lines
 
