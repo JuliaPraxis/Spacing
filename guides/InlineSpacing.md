@@ -2,7 +2,7 @@
 
 - Use one space before and after a single binary operator or a comparator.
   - :ok:&nbsp;&nbsp; `this + that` &nbsp;&nbsp; `this | that` &nbsp;&nbsp; `a >= 0`
-  - :x:&nbsp;&nbsp;  `this +that`  &nbsp;&nbsp;&nbsp; `this|that`  &nbsp;&nbsp;&nbsp;&nbsp; `a>=0`
+  - :x:&nbsp;&nbsp;  `this +that`  &nbsp;&nbsp;&nbsp; `this|that`  &nbsp; &nbsp; &nbsp; `a>=0`
   - :ok:&nbsp;&nbsp; `this + that` &nbsp;&nbsp;&nbsp;&nbsp; :x:&nbsp;&nbsp;  `this +that` 
   - :ok:&nbsp;&nbsp; `this | that` &nbsp;&nbsp;&nbsp;&nbsp; :x:&nbsp;&nbsp;  `this|that` 
 
