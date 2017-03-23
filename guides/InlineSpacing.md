@@ -31,7 +31,7 @@ struct ExampleStruct
 end
 ```
 
-    -  :x:
+   -  :x:
 ```julia
 struct ExampleStruct    
     first_field  :: Int32    
