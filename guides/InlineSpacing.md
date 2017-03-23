@@ -18,7 +18,22 @@
 - Do not use a space after a unary operator
   - :ok:&nbsp;&nbsp;&nbsp;&nbsp; `a = -z` &nbsp;&nbsp;&nbsp; `a = -(b * c)`
   - :x:&nbsp;&nbsp;&nbsp;&nbsp;  `a = - z` &nbsp;&nbsp;&nbsp; `a=-(b*c)`
-  
+
+- Do not use a space after a double colon `::` 
+  - :ok:&nbsp;&nbsp;&nbsp;&nbsp; `first_name::String`
+  ```julia
+struct ExampleStruct    
+    first_field  ::Int32    
+    second_field ::String    
+end
+```
+  - :x:&nbsp;&nbsp;&nbsp;&nbsp;  `first_name:: String`
+```julia
+struct ExampleStruct    
+    first_field  :: Int32    
+    second_field :: String    
+end    
+```
  #### note
  
  - Function calls have no space between the function name and the opening parenthesis.
