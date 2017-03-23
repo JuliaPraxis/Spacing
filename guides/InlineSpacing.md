@@ -1,7 +1,7 @@
 ## Best Practices
 
 - Use one space before and after a single binary operator or a comparator.
-  - :ok:&nbsp;&nbsp; this + that &nbsp;⋅;&nbsp this | that &nbsp;⋅;&nbsp a >= 0
+  - :ok:&nbsp;&nbsp; this + that &nbsp;&SmallCircle;&nbsp this | that &nbsp;⋅;&nbsp a >= 0n
   - :x:&nbsp;&nbsp;  this +that &nbsp;⋅;&nbsp this|that &nbsp;⋅;&nbsp a>=0
 
 - Use one space before and after a short-circuiting conditional.
