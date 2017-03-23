@@ -11,10 +11,6 @@ it becomes easier for others to peruse and participate.
 
 ## practice
 
-[Spacing Guide](https://github.com/JuliaPraxis/Spacing/blob/master/guides/SpacingGuide.md)  
-
-## specifics
-
 [Inline Spacing](https://github.com/JuliaPraxis/Spacing/blob/master/guides/InlineSpacing.md)   
    
    
