@@ -17,10 +17,11 @@ these = those
 estimated_mean     = estimate_mean(data)
 estimated_variance = estimate_variance(data)
 ```
+If the left-hand-side name lengths interleave, align on the `=`.
 ```julia
-this  = that
+this               = that
 estimated_mean     = estimate_mean(data)
-these = those
+these              = those
 estimated_variance = estimate_variance(data)
 ```
 
