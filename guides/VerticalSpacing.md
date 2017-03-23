@@ -30,17 +30,17 @@ Prefer to align on the `::`.
 
 ```julia
 struct ExampleStruct    
-    first_field  :: Int32    
-    second_field :: String    
+    first_field  ::Int32    
+    second_field ::String    
 end    
 ```
 If the field name lengths vary greatly, align subgroups on the `::`.
 ```julia
 struct ExampleStruct    
-    id    :: String    
-    score :: Float64    
-    this_is_the_third_field  :: Int32    
-    this_is_the_fourth_field :: String    
+    id    ::String    
+    score ::Float64    
+    this_is_the_third_field  ::Int32    
+    this_is_the_fourth_field ::String    
 end    
 ```
 ### Splitting Lines
