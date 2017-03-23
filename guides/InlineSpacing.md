@@ -23,7 +23,7 @@
   - :ok:&nbsp;&nbsp;&nbsp;&nbsp; `first_name::String`
   - :x:&nbsp;&nbsp;&nbsp;&nbsp;  `first_name:: String`
 
-  -  :ok:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;:x:
+  -  :ok:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;:x:
 ```julia
 struct ExampleStruct                   struct ExampleStruct
     first_field  ::Int32                   first_field  :: Int32
