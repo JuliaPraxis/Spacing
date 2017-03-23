@@ -17,6 +17,12 @@ these = those
 estimated_mean     = estimate_mean(data)
 estimated_variance = estimate_variance(data)
 ```
+```julia
+this  = that
+estimated_mean     = estimate_mean(data)
+these = those
+estimated_variance = estimate_variance(data)
+```
 
 ### Type field declarations
 
