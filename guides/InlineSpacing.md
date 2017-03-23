@@ -2,7 +2,7 @@
 
 - Use one space before and after a single binary operator or a comparator.
   - :ok:&nbsp;&nbsp; this + that &nbsp;&SmallCircle;&nbsp; this | that &nbsp;&SmallCircle;&nbsp; a >= 0n
-  - :x:&nbsp;&nbsp;  this +that &nbsp;&SmallCircle;&nbsp;;&nbsp; this|that &nbsp;&SmallCircle;&nbsp;;&nbsp; a>=0
+  - :x:&nbsp;&nbsp;  this +that &nbsp;&nbsp;&SmallCircle;&nbsp; this|that &nbsp;&nbsp;&SmallCircle;&nbsp; a>=0
 
 - Use one space before and after a short-circuiting conditional.
   - :ok:&nbsp;&nbsp; an_arg >= 0 || throw(DomainError())
