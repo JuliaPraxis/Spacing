@@ -17,9 +17,9 @@
   - :ok:&nbsp;&nbsp;&nbsp;&nbsp; `this, that = that, this`  &nbsp;&nbsp; `these = (this, that)` &nbsp;&nbsp; `a = func(b, c)`
   - :x:&nbsp;&nbsp;&nbsp;&nbsp;  `this,that = that,this` &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `these = (this,that)`  &nbsp;&nbsp;&nbsp;&nbsp; `a=func(b,c)`
   
-- Do not use a space after a unary operator
-  - :ok:&nbsp;&nbsp;&nbsp;&nbsp; `a = -z` &nbsp;&nbsp;&nbsp; `a = -(b * c)`
-  - :x:&nbsp;&nbsp;&nbsp;&nbsp;  `a = - z` &nbsp;&nbsp;&nbsp; `a=-(b*c)`
+- Do not use a space after a unary operator or `%` when used to force a type.
+  - :ok:&nbsp;&nbsp;&nbsp;&nbsp; `a = -z` &nbsp;&nbsp;&nbsp; `a = -(b * c)`&nbsp;&nbsp;&nbsp; `a = b%Int32`
+  - :x:&nbsp;&nbsp;&nbsp;&nbsp;  `a = - z` &nbsp;&nbsp;&nbsp; `a=-(b*c)`&nbsp;&nbsp;&nbsp; `a = b % Int32`
 
 - Do not use a space after a double colon `::` 
   - :ok:&nbsp;&nbsp;&nbsp;&nbsp; `first_name::String`
