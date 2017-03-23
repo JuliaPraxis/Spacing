@@ -1,5 +1,7 @@
 ## Best Practices
 
+- Indentation uses four spaces and does not use tabs.
+
 - Use one space before and after a single binary operator or a comparator.
   - :ok:&nbsp;&nbsp;&nbsp;&nbsp; `this + that` &nbsp;&nbsp; `this | that` &nbsp;&nbsp; `a >= 0`
   - :x:&nbsp;&nbsp;&nbsp;&nbsp;  `this +that`  &nbsp;&nbsp;&nbsp;&nbsp; `this|that`  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `a>=0`
