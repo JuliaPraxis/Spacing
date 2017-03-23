@@ -2,6 +2,22 @@
      
 - Indentation uses four spaces and does not use tabs.
 
+### Sequence of assignments
+
+Prefer to align on the `=`.
+
+```julia
+this  = that
+these = those
+```
+If the left-hand-side name lengths vary greatly, align subgroups on the `=`.
+```julia
+this  = that
+these = those
+estimated_mean     = estimate_mean(data)
+estimated_variance = estimate_variance(data)
+```
+
 ### Type field declarations
 
 Prefer to align on the `::`.
