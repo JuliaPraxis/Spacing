@@ -3,7 +3,11 @@
      
 - Indentation uses four spaces and does not use tabs.
 
+- Lines should not end in extra whitespace.
+
 ### Splitting Lines
+
+Prefer to split a long line after `=` or `(` or `,`.
 
 - function definitions
   - :ok:&nbsp;&nbsp;&nbsp;&nbsp; good
