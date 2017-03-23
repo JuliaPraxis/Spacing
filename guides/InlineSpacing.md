@@ -2,7 +2,7 @@
 
 - Indentation uses four spaces and does not use tabs.
 
-------
+### specific uses
 
 - Use one space before and after a single binary operator or a comparator.
   - :ok:&nbsp;&nbsp;&nbsp;&nbsp; `this + that` &nbsp;&nbsp; `this | that` &nbsp;&nbsp; `a >= 0`
