@@ -9,7 +9,7 @@
   - :x:  a>=0||throw(DomainError())
   
 - Do not use a space after a unary operator
-  - :ok: a = -z
-  - :x:  a = - z
+  - :ok: a = -z, a = -(b * c)
+  - :x:  a = - z, a=-(b*c)
   
  
