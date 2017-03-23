@@ -23,7 +23,7 @@ end
 ```
 ### Splitting Lines
 
-Prefer to split a long line after `=`, `(`, `,`, `||` or `&&`.
+Prefer to split a long line after `=`, `,`, `||`, `&&`. or `(`.
 
 Indent the split parts of a long line equally.
 
