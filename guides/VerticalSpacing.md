@@ -5,13 +5,14 @@
 ### Type field declarations
 
 Prefer to align on the `::`.
-If the field name lengths vary greatly, align subgroups on their `::`.
+
 ```julia
 struct ExampleStruct    
     first_field  :: Int32    
     second_field :: String    
 end    
 ```
+If the field name lengths vary greatly, align subgroups on their `::`.
 ```julia
 struct ExampleStruct    
     id    :: String    
