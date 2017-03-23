@@ -1,6 +1,6 @@
 ## Best Practices:  Inline Spacing
 
-&nbsp;
+     
 - Indentation uses four spaces and does not use tabs.
 
 - Use one space before and after a single binary operator or a comparator.
