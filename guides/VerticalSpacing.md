@@ -5,11 +5,13 @@
 
 ### Splitting Lines
 
-- statement
+- function definitions
   - :ok:&nbsp;&nbsp;&nbsp;&nbsp; good
   - :x:&nbsp;&nbsp;&nbsp;&nbsp;  avoid
 
 ### Alignment
+
+Prefer aligning on
 
 - statement
   - :ok:&nbsp;&nbsp;&nbsp;&nbsp; good
