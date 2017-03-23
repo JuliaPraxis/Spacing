@@ -23,7 +23,7 @@
   - :ok:&nbsp;&nbsp;&nbsp;&nbsp; `first_name::String`
   - :x:&nbsp;&nbsp;&nbsp;&nbsp;  `first_name:: String`
 
--  :ok:
+  -  :ok:
 ```julia
 struct ExampleStruct    
     first_field  ::Int32    
@@ -31,7 +31,7 @@ struct ExampleStruct
 end
 ```
 
--  :x:
+    -  :x:
 ```julia
 struct ExampleStruct    
     first_field  :: Int32    
