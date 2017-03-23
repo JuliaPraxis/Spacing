@@ -24,5 +24,5 @@ it becomes easier for others to peruse and participate.
 
 ----
    
-   [ask a question](https://gitter.im/JuliaPraxis/Naming)  
-   [raise an issue](https://github.com/JuliaPraxis/Naming/issues)
+   [ask a question](https://gitter.im/JuliaPraxis/CodingConventions)  
+   [raise an issue](https://github.com/JuliaPraxis/Spacing/issues)
