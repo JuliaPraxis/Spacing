@@ -6,7 +6,9 @@
 - Use one space before and after a single binary operator or a comparator.
   - :ok:&nbsp;&nbsp;&nbsp;&nbsp; `this + that` &nbsp;&nbsp; `this | that` &nbsp;&nbsp; `a >= 0`
   - :x:&nbsp;&nbsp;&nbsp;&nbsp;  `this +that`  &nbsp;&nbsp;&nbsp;&nbsp; `this|that`  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `a>=0`
-  
+
+-- Spacing around `^` is optional.
+
 - Use one space before and after a short-circuiting conditional.
   - :ok:&nbsp;&nbsp;&nbsp;&nbsp; `an_arg >= 0 || throw(DomainError())`
   - :x:&nbsp;&nbsp;&nbsp;&nbsp;  `an_arg>=0||throw(DomainError())`
