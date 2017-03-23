@@ -25,10 +25,10 @@
 
   -  :ok:
 ```julia
-struct ExampleStruct    
-    first_field  ::Int32    
-    second_field ::String    
-end
+struct ExampleStruct     :&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;
+    first_field  ::Int32 :&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;   
+    second_field ::String:&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;   
+end                      :&nbsp;&nbsp;&nbsp;&nbsp;   
 ```
 
    -  :x:
