@@ -29,8 +29,8 @@ struct ExampleStruct
     second_field ::String    
 end
 ```
--
-  - :x:&nbsp;&nbsp;&nbsp;&nbsp;  `first_name:: String`
+
+  -- :x:&nbsp;&nbsp;&nbsp;&nbsp;  `first_name:: String`
 
 ```julia
 struct ExampleStruct    
