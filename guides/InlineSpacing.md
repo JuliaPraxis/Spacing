@@ -1,15 +1,15 @@
 ## Best Practices
 
 - Use one space before and after a single binary operator or a comparator.
-  - :ok: x + y, x | y, a >= 0
-  - :x:  x +y, a|b, a>=0
+  - :ok:&nbsp;&nbsp; x + y, x | y, a >= 0
+  - :x:&nbsp;&nbsp;  x +y, a|b, a>=0
 
 - Use one space before and after a short-circuiting conditional.
-  - :ok: a >= 0 || throw(DomainError())
-  - :x:  a>=0||throw(DomainError())
+  - :ok:&nbsp;&nbsp; a >= 0 || throw(DomainError())
+  - :x:&nbsp;&nbsp;  a>=0||throw(DomainError())
   
 - Do not use a space after a unary operator
-  - :ok: a = -z, a = -(b * c)
-  - :x:  a = - z, a=-(b*c)
+  - :ok:&nbsp;&nbsp; a = -z, a = -(b * c)
+  - :x:&nbsp;&nbsp;  a = - z, a=-(b*c)
   
  
