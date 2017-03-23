@@ -23,21 +23,14 @@
   - :ok:&nbsp;&nbsp;&nbsp;&nbsp; `first_name::String`
   - :x:&nbsp;&nbsp;&nbsp;&nbsp;  `first_name:: String`
 
-  -  :ok:
+  -  :ok:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:x:
 ```julia
-struct ExampleStruct     :&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;
-    first_field  ::Int32 :&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;   
-    second_field ::String:&nbsp;&nbsp;&nbsp;&nbsp;:&nbsp;&nbsp;&nbsp;&nbsp;   
-end                      :&nbsp;&nbsp;&nbsp;&nbsp;   
+struct ExampleStruct                   struct ExampleStruct
+    first_field  ::Int32                   first_field  :: Int32
+    second_field ::String                  second_field :: String
+end                                    end
 ```
 
-   -  :x:
-```julia
-struct ExampleStruct    
-    first_field  :: Int32    
-    second_field :: String    
-end    
-```
 
  #### note
  
