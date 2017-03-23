@@ -12,7 +12,7 @@ struct ExampleStruct
     second_field :: String    
 end    
 ```
-If the field name lengths vary greatly, align subgroups on their `::`.
+If the field name lengths vary greatly, align subgroups on the `::`.
 ```julia
 struct ExampleStruct    
     id    :: String    
