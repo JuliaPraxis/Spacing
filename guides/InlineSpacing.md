@@ -23,7 +23,7 @@
   - :ok:&nbsp;&nbsp;&nbsp;&nbsp; `first_name::String`
 
 
->  ```julia
+```julia
 struct ExampleStruct    
     first_field  ::Int32    
     second_field ::String    
