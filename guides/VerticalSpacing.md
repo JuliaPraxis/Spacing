@@ -10,18 +10,17 @@ Prefer to align on the `=`.
 this  = that
 these = those
 ```
-If the left-hand-side name lengths vary greatly, align subgroups on the `=`.
-```julia
-this  = that
-these = those
-estimated_mean     = estimate_mean(data)
-estimated_variance = estimate_variance(data)
-```
-If the left-hand-side name lengths interleave, align on the `=`.
 ```julia
 this               = that
 estimated_mean     = estimate_mean(data)
 these              = those
+estimated_variance = estimate_variance(data)
+```
+If the left-hand-side name lengths vary greatly in subgroups, align subgroups on the `=`.
+```julia
+this  = that
+these = those
+estimated_mean     = estimate_mean(data)
 estimated_variance = estimate_variance(data)
 ```
 
