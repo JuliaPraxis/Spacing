@@ -21,8 +21,9 @@
 
 - Do not use a space after a double colon `::` 
   - :ok:&nbsp;&nbsp;&nbsp;&nbsp; `first_name::String`
+  - :x:&nbsp;&nbsp;&nbsp;&nbsp;  `first_name:: String`
 
-
+-  :ok:
 ```julia
 struct ExampleStruct    
     first_field  ::Int32    
@@ -30,8 +31,7 @@ struct ExampleStruct
 end
 ```
 
-  -- :x:&nbsp;&nbsp;&nbsp;&nbsp;  `first_name:: String`
-
+-  :x:
 ```julia
 struct ExampleStruct    
     first_field  :: Int32    
