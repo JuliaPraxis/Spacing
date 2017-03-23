@@ -7,7 +7,9 @@
 
 ### Splitting Lines
 
-Prefer to split a long line after `=` or `(` or `,`.
+Prefer to split a long line after `=`, `(`, `,`, `||` or `&&`.
+
+Indent the split parts of a long line equally.
 
 - function definitions
   - :ok:&nbsp;&nbsp;&nbsp;&nbsp; good
