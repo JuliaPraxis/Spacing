@@ -7,16 +7,16 @@
 Prefer to align on the `::`.
 If the field name lengths vary greatly, align subgroups on their `::`.
 
-struct ExampleStruct
-    first_field  :: Int32
-    second_field :: String
-end
+struct ExampleStruct    
+    first_field  :: Int32    
+    second_field :: String    
+end    
 
-struct ExampleStruct
-    id    :: String
+struct ExampleStruct    
+    id    :: String    
     score :: Float64    
-    this_is_the_third_field  :: Int32
-    this_is_the_fourth_field :: String
+    this_is_the_third_field  :: Int32    
+    this_is_the_fourth_field :: String    
 end    
 
 ### Splitting Lines
