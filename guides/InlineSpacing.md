@@ -27,7 +27,7 @@
 
   -  :ok:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;:x:
 ```julia
-checkname(name::String)                checkname(name:: String)
+newname(name::String)                  newname(name:: String)
 
 struct ExampleStruct                   struct ExampleStruct
     first_field::Int32                     first_field:: Int32
