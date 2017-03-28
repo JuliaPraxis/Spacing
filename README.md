@@ -2,7 +2,7 @@
 
 This brief guide collects information on best practices and sound approaches using space with Julia.  
 
-There is are two guiding principles to using space
+There are two guiding principles to using space
 - prefer readability
 - consistency confers clarity
 
