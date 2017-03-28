@@ -27,6 +27,8 @@
 
   -  :ok:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;:x:
 ```julia
+function(name::String)                 function(name:: String)
+
 struct ExampleStruct                   struct ExampleStruct
     first_field::Int32                     first_field:: Int32
     second_field::String                   second_field:: String
