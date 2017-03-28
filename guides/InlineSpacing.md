@@ -32,6 +32,7 @@ struct ExampleStruct                   struct ExampleStruct
     second_field::String                   second_field:: String
 end                                    end
 ```
+
   -  :ok:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;:x:
 ```julia
 struct ExampleStruct                   struct ExampleStruct
