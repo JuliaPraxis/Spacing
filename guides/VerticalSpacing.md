@@ -4,7 +4,7 @@
 
 ### Sequence of assignments
 
-Prefer to align on the `=`.
+If you are going to align vertically, prefer to align on the `=`.
 
 ```julia
 this  = that
@@ -26,7 +26,7 @@ estimated_variance = estimate_variance(data)
 
 ### Type field declarations
 
-Prefer to align on the `::`.
+If you are going to align vertically, prefer to align on the `::`.
 
 ```julia
 struct ExampleStruct    
@@ -48,18 +48,6 @@ end
 Prefer to split a long line after `=`, `,`, `||`, `&&`. or `(`.
 
 Indent the split parts of a long line equally.
-
-- function definitions
-  - :ok:&nbsp;&nbsp;&nbsp;&nbsp; good
-  - :x:&nbsp;&nbsp;&nbsp;&nbsp;  avoid
-
-### Alignment
-
-Prefer aligning on
-
-- statement
-  - :ok:&nbsp;&nbsp;&nbsp;&nbsp; good
-  - :x:&nbsp;&nbsp;&nbsp;&nbsp;  avoid
   
 ### note
 
